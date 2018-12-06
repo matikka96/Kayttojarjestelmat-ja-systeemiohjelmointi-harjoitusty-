@@ -5,7 +5,7 @@ Tested on: OS X 10.14
 
 This repository contains three projects (own folder for each of them), with documentation file named README.md
 
-Documentation contains many examples, which anyone can easily follow after cloning this repository to own device.
+Documentation contains many examples, which anyone can easily follow after cloning this repository to local device.
 
 ## Project 1 – Unix Utilities
 Objective of this project was to create own versions of specific UNIX command line utilities. The following ones were created in C:
@@ -25,6 +25,8 @@ In this example program will print out all the lines of files named "names.txt" 
 
 > ./my-cat names.txt names2.txt
 
+Visual representation of the steps above is seen in the followind screenshot.
+
 ![Screenshot](https://github.com/matikka96/Kayttojarjestelmat-ja-systeemiohjelmointi-harjoitusty-/blob/master/screenshots/my-cat.png?raw=true)
 
 
@@ -39,9 +41,11 @@ After executing file named "my-grep" will be created in same directory.
 
 Example of running the program:
 
-> ./my-grep ka names.txt names2.txt
+> ./my-grep ka names.txt
 
-From the example we can see programs logic. First parameter is the search term, "ka" in this case. The rest are filenames inside of which program will scan for search term.
+From the example we can see programs logic. First parameter is the search term, "ka" in this case. Second parameter is filename inside of which program will scan for search term. Amount of filenames as parameters is unlimited.
+
+Visual representation of the steps above is seen in the followind screenshot.
 
 ![Screenshot](https://github.com/matikka96/Kayttojarjestelmat-ja-systeemiohjelmointi-harjoitusty-/blob/master/screenshots/my-grep.png?raw=true)
 
@@ -55,7 +59,7 @@ Features of this implementation:
 - runs build in, own custom made and system specific utility commands
 - supports both, interactive and batch modes
 
-### Tutorial
+### Compiling and running
 In order to run, shell needs to be compiled. 
 
 This can be done:
@@ -68,8 +72,9 @@ Now shell can be started with following command:
 
 > ./wish
 
+Visual representation of the steps above is seen in the followind screenshot. Some of the SHELL's functionality is demonstrated also. 
+
 ![Screenshot](https://github.com/matikka96/Kayttojarjestelmat-ja-systeemiohjelmointi-harjoitusty-/blob/master/screenshots/wish.png?raw=true)
 
 
 ## Project 3 – Kernel Hacking
-
