@@ -1,13 +1,14 @@
 # Kayttojarjestelmat-ja-systeemiohjelmointi-harjoitustyo
-Authors: Matvei Tikka &
+Authors: Matvei Tikka (0453100) & Saku Suikkanen (0504774)
+
 Tested on: OS X 10.14
 
 This repository contains three projects (own folder for each of them), with documentation file named README.md
 
-Documentation contais many examples, which anyone can easily follow after cloning this repository to own device.
+Documentation contains many examples, which anyone can easily follow after cloning this repository to own device.
 
 ## Project 1 – Unix Utilities
-Objective of this project was to create own versions of spesific UNIX command line utilities. The following ones were created in C:
+Objective of this project was to create own versions of specific UNIX command line utilities. The following ones were created in C:
 1. my-cat
 2. my-grep
 
@@ -23,6 +24,8 @@ After executing file named "my-cat" will be created in same directory. With this
 In this example program will print out all the lines of files named "names.txt" and "names2.txt" (all the files can be found in project directory) :
 
 > ./my-cat names.txt names2.txt
+
+![Screenshot](https://github.com/matikka96/Kayttojarjestelmat-ja-systeemiohjelmointi-harjoitusty-/blob/master/screenshots/my-cat.png?raw=true)
 
 
 ### my-grep
@@ -40,14 +43,17 @@ Example of running the program:
 
 From the example we can see programs logic. First parameter is the search term, "ka" in this case. The rest are filenames inside of which program will scan for search term.
 
+![Screenshot](https://github.com/matikka96/Kayttojarjestelmat-ja-systeemiohjelmointi-harjoitusty-/blob/master/screenshots/my-grep.png?raw=true)
+
 
 ## Project 2 – Unix Shell
 Purpose of this project was to create a simple command line interpreter, or in other words *SHELL*. What is does, is basically it runs a while loop and listens for commands. If command is recognized is it executes and returns back to while loop.
 
 Features of this implementation:
-- recognizes paraller commands
+- recognizes parallel commands
 - recognizes multiple parameters for each command
-- runs build in, own custom made and system spesific utility commands
+- runs build in, own custom made and system specific utility commands
+- supports both, interactive and batch modes
 
 ### Tutorial
 In order to run, shell needs to be compiled. 
@@ -62,6 +68,8 @@ Now shell can be started with following command:
 
 > ./wish
 
+![Screenshot](https://github.com/matikka96/Kayttojarjestelmat-ja-systeemiohjelmointi-harjoitusty-/blob/master/screenshots/wish.png?raw=true)
 
 
 ## Project 3 – Kernel Hacking
+

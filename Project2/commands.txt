@@ -1,4 +1,4 @@
-ls
+ ls
 pwd
 ls -ls
 ./my-cat nimet.txt

@@ -140,7 +140,7 @@ int main(int argc, char **argv)
       char *line;
       char **args;
 
-      printf("> ");
+      printf("wish> ");
       line = wish_read_line();
 			
 			// MULTI COMMAND IMPLEMENTATION
