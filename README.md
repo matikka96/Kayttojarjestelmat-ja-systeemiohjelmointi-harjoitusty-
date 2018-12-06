@@ -1,1 +1,3 @@
-# Kayttojarjestelmat-ja-systeemiohjelmointi-harjoitusty-
+# Kayttojarjestelmat-ja-systeemiohjelmointi-harjoitustyo
+Authors: Matvei Tikka & 
+
